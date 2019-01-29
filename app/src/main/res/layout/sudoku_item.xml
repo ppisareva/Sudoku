@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    >
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/cell_1"
+            style="@style/ItemSize"
+            android:background="@drawable/frame_item"
+            android:onClick="onCell"/>
+
+        <Button
+            android:id="@+id/cell_2"
+            style="@style/ItemSize"
+            android:background="@drawable/frame_item"
+            android:onClick="onCell" />
+
+        <Button
+            android:id="@+id/cell_3"
+            style="@style/ItemSize"
+            android:onClick="onCell"
+            android:background="@drawable/frame_item_left"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/cell_4"
+            style="@style/ItemSize"
+            android:onClick="onCell"
+            android:background="@drawable/frame_item"
+             />
+
+        <Button
+            android:id="@+id/cell_5"
+            style="@style/ItemSize"
+            android:onClick="onCell"
+            android:background="@drawable/frame_item"
+             />
+
+        <Button
+            android:id="@+id/cell_6"
+            style="@style/ItemSize"
+            android:onClick="onCell"
+            android:background="@drawable/frame_item_left"
+             />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/cell_7"
+            style="@style/ItemSize"
+            android:onClick="onCell"
+            android:background="@drawable/frame_item_bottom"
+            />
+
+        <Button
+            android:id="@+id/cell_8"
+            style="@style/ItemSize"
+            android:onClick="onCell"
+            android:background="@drawable/frame_item_bottom"
+             />
+
+        <Button
+            android:id="@+id/cell_9"
+            style="@style/ItemSize"
+            android:onClick="onCell"
+            android:background="@drawable/frame_item_end"
+            />
+
+    </TableRow>
+</TableLayout>
